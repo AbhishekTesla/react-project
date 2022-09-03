@@ -1,6 +1,6 @@
 .row_poster{
    display: block;
-  margin: 0.5em;
+
    object-fit:cover;
    margin-bottom: 1.5em;
    
@@ -36,8 +36,7 @@ body::-webkit-scrollbar{
 
 .row_Larger_poster{
   height: 25em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+ 
 
   
 }

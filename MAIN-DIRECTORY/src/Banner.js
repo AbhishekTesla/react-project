@@ -9,7 +9,7 @@ function Banner() {
     useEffect(()=>{
 
         async function fetchData(){
-            const request = await axios.get(requests.fetchActionMovies);
+            const request = await axios.get(requests.fetchHorrorMovies);
 
             setMovie(request.data.results[Math.floor(Math.random() *request.data.results.length )]);
       
@@ -43,6 +43,7 @@ function Banner() {
         <h4>{movie?.release_date}</h4>
        </p>
     </div>
+    <div className="banner_fadeBottom" />
   </header>
   ) ;
 }
